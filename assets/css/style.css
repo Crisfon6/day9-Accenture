@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.divHeader {
+    width: 100%;
+}
+
+.header,
+.footer {
+    background-color: rgb(87, 84, 84);
+    color: rgb(96, 178, 202);
+}
+
+.styleContenedor {
+    margin-top: 170px;
+}
+
+.footer {
+    font-size: 30px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+}
