@@ -10,6 +10,7 @@ const API = "https://pokeapi.co/api/v2/pokemon/";
 const getData = () => {
 
     let fetchs = [];
+
     //pokemos ids for arrive
     if (namePoke != '') {
         fetchs.push(fetch(API + namePoke));
@@ -63,16 +64,12 @@ const draw = async(prom) => {
     divCard.appendChild(divBody);
 
     divcol.appendChild(divCard);
-
-
-
     dataPokemon.appendChild(divcol);
 
 }
 const range = (start, end) => {
     return Array(end - start + 1).fill().map((_, idx) => start + idx)
 }
-
 
 // Paginación
 const paginacion = () => {
